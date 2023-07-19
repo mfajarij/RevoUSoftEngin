@@ -1,6 +1,6 @@
-function HelloWorld () {
-    alert("Hello Warudo")
-}
+// function HelloWorld () {
+//     alert("Hello Warudo")
+// }
 
 // var num1 = 5;
 

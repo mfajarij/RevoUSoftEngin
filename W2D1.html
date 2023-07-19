@@ -1,11 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<br lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="script.js"></script>
 </head>
-<body>
-    
+<br>
+    <h1>WELCOME!</h1>
+    <input id="nama_depan" name="nama_depan" placeholder="Nama Depan"></br>
+    <input id="nama_belakang" name="nama_belakang" placeholder="Nama Belakang"></br>
+    <button onclick="peringatan()">ini adalah tombol</button>
+    <script>
+        function peringatan(){
+            // console.log("ini sudah diklik");
+            let namaDepan = document.getElementById("nama_depan").value
+            let namaBelakang = document.getElementById("nama_belakang").value
+            // buat ada spasi
+            // console.log(namaDepan + " " + namaBelakang) 
+            // tanpa spasi
+            // console.log(namaDepan + namaBelakang) 
+            // cara kedua
+            console.log(`${namaDepan} ${namaBelakang}`)
+
+
+        }
+    </script>
 </body>
 </html>
