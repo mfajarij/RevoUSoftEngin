@@ -10,9 +10,10 @@
 
 // function peringatan(){
 //     // console.log("ini sudah diklik");
-//     let pertama = document.getElementById("angka_pertama").value;
-//     let kedua= document.getElementById("angka_kedua").value;
+//     let angkaPertama = document.getElementById("angka_pertama").value;
+//     let angkaKedua= document.getElementById("angka_kedua").value;
     
-//     let hasil = parseInt(pertama) + parseInt(kedua);
+//     let hasilPenjumlahan = parseInt(angkaPertama) + parseInt(angkaKedua);
 
-//     console.log(hasil)
+//     console.log(hasilPenjumlahan)
+// }
