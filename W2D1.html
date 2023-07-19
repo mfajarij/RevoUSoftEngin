@@ -8,14 +8,14 @@
 </head>
 <br>
     <h1>WELCOME!</h1>
-    <input id="nama_depan" name="nama_depan" placeholder="Nama Depan"></br>
+    <!-- <input id="nama_depan" name="nama_depan" placeholder="Nama Depan"></br>
     <input id="nama_belakang" name="nama_belakang" placeholder="Nama Belakang"></br>
     <button onclick="peringatan()">ini adalah tombol</button>
     <script>
         function peringatan(){
             // console.log("ini sudah diklik");
-            let namaDepan = document.getElementById("nama_depan").value
-            let namaBelakang = document.getElementById("nama_belakang").value
+            let namaDepan = document.getElementById("nama_depan").value;
+            let namaBelakang = document.getElementById("nama_belakang").value;
             // buat ada spasi
             // console.log(namaDepan + " " + namaBelakang) 
             // tanpa spasi
@@ -23,6 +23,21 @@
             // cara kedua
             console.log(`${namaDepan} ${namaBelakang}`)
 
+
+        } -->
+
+    <input id="angka_pertama" name="angka_pertama" placeholder="Angka Pertama" type="number"></br>
+    <input id="angka_kedua" name="angka_kedua" placeholder="Angka Kedua" type="number"></br>
+    <button onclick="peringatan()">ini adalah tombol</button>
+    <script>
+        function peringatan(){
+            // console.log("ini sudah diklik");
+            let pertama = document.getElementById("angka_pertama").value;
+            let kedua= document.getElementById("angka_kedua").value;
+            
+            let hasil = parseInt(pertama) + parseInt(kedua);
+
+            console.log(hasil)
 
         }
     </script>
