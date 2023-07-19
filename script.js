@@ -15,5 +15,6 @@
     
 //     let hasilPenjumlahan = parseInt(angkaPertama) + parseInt(angkaKedua);
 
-//     console.log(hasilPenjumlahan)
+//     // console.log(hasilPenjumlahan)
+//     document.write('Hasilnya adalah ' + hasilPenjumlahan)
 // }
